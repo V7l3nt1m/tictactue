@@ -5,7 +5,6 @@
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
-            <h1 id="titulo-xisbola">XISBOLA</h1>
 
             <div class="container">
                 <div class="row">
@@ -14,6 +13,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="loginBox">
+                                    <h1 id="titulo-xisbola">XISBOLA</h1>
                             <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
                             <h3 style="color:#3380cc">Login</h3>
                             <x-validation-errors class="mb-4" />

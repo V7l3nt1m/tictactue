@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controller\EventController;
+
+use App\Http\livewire\{
+    TableComponent
+};
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +22,7 @@ use App\Http\Controller\EventController;
 Route::get('/', function () {
     return redirect('/login');
 });
+
 
 Route::middleware([
     'auth:sanctum',

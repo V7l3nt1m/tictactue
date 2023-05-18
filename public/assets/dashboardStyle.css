@@ -4,13 +4,12 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(img/wargames.gif) no-repeat;
-    height: 87vh;
+    background: linear-gradient(to bottom, black,black);
+    height: 100vh;
     font-family: sans-serif;
-    background-size: 20%;
+    background-size: cover;
     background-repeat: repeat;
     background-position: center;
-    overflow: hidden;
 }
 @media screen and (max-width: 600px){
     body{background-size: cover fixed}
@@ -104,5 +103,70 @@ p{
     text-align: center;
     display: block;
     color: white;
-    margin-bottom:10px;
+    padding-top: 20px;
+    font-size: 60px;
+}
+h3{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box-neon{
+    margin-top: 10px;
+    color:white;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #3380cc, 0 0 10px #3380cc, 0 0 15px #3380cc, 0 2px 0 black;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  position: relative;
+  animation: moveUpDown 1s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+    0%, 100% { top: 0; }
+    50% { top: -10px; }
+  }
+
+
+h4{
+    color:white;
+    text-align: center;
+}
+.tictac-box{
+        margin-top: 50px;
+        color:white;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 0 0 5px #3380cc, 0 0 10px #3380cc, 0 0 15px #3380cc, 0 2px 0 black;
+        display: block;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+}
+#img-table{
+    width: 500px;
+    border-radius: 20px;
+}
+.h6-leaderboards{
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+th{
+    color:#3380cc;
+}
+table{
+    color:white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #3380cc, 0 0 10px #3380cc, 0 0 15px #3380cc, 0 2px 0 black;
+}
+td{
+    color:white;
+}
+.leaderboards{
+    padding-bottom: 30px;
 }
