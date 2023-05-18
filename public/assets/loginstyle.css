@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(img/fundo.png) no-repeat;
-    height: 100vh;
+    background: url(img/wargames.gif) no-repeat;
+    height: 87vh;
     font-family: sans-serif;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 20%;
+    background-repeat: repeat;
     background-position: center;
     overflow: hidden;
 }
@@ -53,12 +53,12 @@ h3{
     box-sizing: border-box;
 }
 .loginBox input[type="text"]:hover, .loginBox input[type="password"]:hover{
-    color: #42F3FA;
-    border: 1px solid #42F3FA;
-    box-shadow: 0 0 5px rgba(0,255,0,.3), 0 0 10px rgba(0,255,0,.2), 0 0 15px rgba(0,255,0,.1), 0 2px 0 black;
+    color: #3380cc;
+    border: 1px solid #3380cc;
+    box-shadow: 0 0 5px #3380cc, 0 0 10px #3380cc, 0 0 15px #3380cc, 0 2px 0 black;
 }
 .loginBox input[type="text"]:focus, .loginBox input[type="password"]:focus{
-    border-bottom: 2px solid #42F3FA;
+    border-bottom: 2px solid #3380cc;
 }
 .inputBox{
     position: relative;
@@ -85,7 +85,7 @@ h3{
     display: block
 }
 a:hover{
-    color: #00ffff
+    color: #3380cc
 }
 p{
     color: #0000ff
@@ -95,4 +95,10 @@ p{
     background-color: black;
     color: white;
     padding-left: 20px;
+}
+
+#titulo-xisbola{
+    text-align: center;
+    display: block;
+    color: white;
 }

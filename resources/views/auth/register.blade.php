@@ -9,7 +9,7 @@
             @csrf
         <div class="loginBox"> 
             <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
-            <h3>Login</h3>
+            <h3 style="color:#3380cc">Cadastrar</h3>
             <x-validation-errors class="mb-4" />
         @if (session('status'))
             <div class="mb-4 font-medium text-sm text-green-600">
@@ -33,9 +33,9 @@
                      <br>
 
             </div>
-            <input type="submit" value="Cadastrar">
+            <input type="submit" value="Cadastrar" style="background: #3380cc">
             <div class="text-center">
-               <p style="color: white;">Já estou cadastrado:</p> <a style="color: #59238F;" href="/login">Logar</a>
+               <p style="color: white;">Já estou cadastrado:</p> <a style="color: #3380cc;" href="/login">Logar</a>
             </div>
             
         </div>
